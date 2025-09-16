@@ -49,5 +49,140 @@
         <mj-image src="images/salleRestaurant.jpg" alt=""/>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Carte de l'Expérientiel</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/plat1.jpg" alt=""/>
+      </mj-column>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>
+              <p>Pour débuter</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Bouchée vapeur sauce Thaï</p>
+            </td>
+            <td>
+              <p>10.50 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Paupiette de veau façon cordon bleu</p>
+            </td>
+            <td>
+              <p>10.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Velouté Ajo Bianco</p>
+            </td>
+            <td>
+              <p>9.50 €</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/plat2.jpg" alt=""/>
+      </mj-column>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>
+              <p>Pour Suivre</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>tartare de boeuf au couteau, haricots verts en tempura</p>
+            </td>
+            <td>
+              <p>15.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Filet mignon basse température, sauce Maroilles, polenta croustillante</p>
+            </td>
+            <td>
+              <p>14.50 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Sébaste rôti au beurre, bisque de crustacés, siphon de pomme de terre</p>
+            </td>
+            <td>
+              <p>14.00 €</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/plat3.png" alt=""/>
+      </mj-column>
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td>
+              <p>Pour terminer</p>
+            </td>
+          </tr>
+          <tr> 
+            <td>
+              <p>Assiette Gourmande</p>
+            </td>
+            <td>
+              <p>7.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Coupe de glaces et sorbets</p>
+            </td>
+            <td>
+              <p>5.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Café ou thé gourmand</p>
+            </td>
+            <td>
+              <p>9.50 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Tiramisu au spéculoos</p>
+            </td>
+            <td>
+              <p>7.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Crème renversée au caramel</p>
+            </td>
+            <td>
+              <p>6.00 €</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
