@@ -1,0 +1,53 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>News Ecosup Hôtellerie</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"></mj-font>
+    <mj-raw>
+      <meta charset="UTF-8">
+      <meta name='color-scheme' content='light'/>
+      <meta name='supported-color-schemes' content='light'/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-attributes>
+      <mj-all font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif"/>
+      <mj-class name="T21-700" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="21px" line-height="26px" font-weight="700"/>
+      <mj-class name="T18-700" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="23px" font-weight="700"/>
+      <mj-class name="T16-400" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="22px" font-weight="400"/>
+      <mj-class name="T15-400" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="22px" font-weight="400"/>
+      <mj-class name="T14-700" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px" font-weight="700"/>
+      <mj-class name="T12-400" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="16px" font-weight="400"/>
+      <mj-class name="T13-400" font-family="&quot;Poppins&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="18px" font-weight="400"/>
+      <mj-class name="cT1" color="#00263C"></mj-class>
+      <mj-class name="bgT0" background-color="#000000"></mj-class>
+      <mj-class name="cT0" color="#000000"/>
+      <mj-class name="cTW" color="#ffffff"/>
+      <mj-class name="bgW" background-color="#ffffff"/>
+      <mj-class name="cO" color="#CC4E0A"/>
+      <mj-class name="bgO" background-color="#CC4E0A"/>
+      <mj-class name="bgBf" background-color="#00263C"></mj-class>
+    </mj-attributes>
+    <mj-breakpoint width="545px"></mj-breakpoint>
+  </mj-head>
+  <mj-body background-color="#f6f6f6" width="640px">
+    <mj-section padding="0px" padding-top="20px">
+      <mj-column padding="10px" padding-bottom="13px">
+        <mj-text align="center" padding="0" mj-class="T12-400" color="#b5b5b5">Avec notre Forfait Neo Illimité : appels, data, Privilèges Entreprises inclus</mj-text>
+        <mj-text align="center" padding="0" mj-class="T12-400" color="#b5b5b5">Version <a style="color:#b5b5b5;" href="#">en ligne</a>.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/ecosupBlanc.png" alt=""/>
+        <mj-image src="images/nomRestaurant.png" alt=""/>
+        <mj-text>Newsletter n° 148</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="images/salleRestaurant.jpg" alt=""/>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
