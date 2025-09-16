@@ -189,5 +189,88 @@
         <mj-image src="images/ardoise.jpg" alt=""/>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Carte Sur le Pouce</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Un P'tit Creux</mj-text>
+        <mj-table>
+          <tr>
+            <td> 
+              <p>Plat du jour</p>
+            </td>
+            <td>
+              <p>12.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Bouddha bowl</p>
+            </td>
+            <td>
+              <p>13.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Burger végé</p>
+            </td>
+            <td>
+              <p>13.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Tagliatelles bolognaise</p>
+            </td>
+            <td>
+              <p>12.50 €</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Un P'tit plaisir sucré</mj-text>
+        <mj-table>
+          <tr>
+            <td>
+              <p>Dessert du jour</p>
+            </td>
+            <td>
+              <p>6.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Salade de fruits</p>
+            </td>
+            <td>
+              <p>4.50 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Café gourmand</p>
+            </td>
+            <td>
+              <p>9.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Assiette gourmande</p>
+            </td>
+            <td>
+              <p>6.50 €</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
