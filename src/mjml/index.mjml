@@ -184,5 +184,10 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/ardoise.jpg" alt=""/>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
