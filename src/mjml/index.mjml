@@ -282,5 +282,15 @@
         <mj-image src="images/produitSemaine.jpg" alt=""/>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Notre étudiant de la semaine</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/etudiantSemaine.png" alt=""/>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
