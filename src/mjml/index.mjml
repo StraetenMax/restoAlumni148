@@ -272,5 +272,15 @@
         </mj-table>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text>Le produit de la semaine</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image src="images/produitSemaine.jpg" alt=""/>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
