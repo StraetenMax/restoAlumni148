@@ -186,12 +186,12 @@
     </mj-section>
     <mj-section>
       <mj-column>
-        <mj-image src="images/ardoise.jpg" alt=""/>
+        <mj-image padding="0" width="640px" src="images/ardoise.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
-        <mj-text>Carte Sur le Pouce</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Carte Sur le Pouce</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
