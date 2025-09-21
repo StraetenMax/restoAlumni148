@@ -300,31 +300,31 @@
         <mj-image src="images/etudiantSemaine.png" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="bgWhite">
       <mj-column>
-        <mj-button>Réservez une table</mj-button>
-        <mj-button>En savoir plus sur Ecosup Hôtellerie</mj-button>
+        <mj-button mj-class="T18 cTMarron bgWhite" font-weight="400" border="4px solid #7A5231" border-radius="15px">Réservez une table</mj-button>
+        <mj-button mj-class="T18 cTMarron bgWhite" font-weight="400" border="2px solid #7A5231" border-radius="15px">En savoir plus sur Ecosup Hôtellerie</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section mj-class="bgMarron" padding="20px">
       <mj-column>
-        <mj-text>17 place Charles et Albert Roussel</mj-text>
-        <mj-text>59200 Tourcoing</mj-text>
-        <mj-text>03 20 70 06 06</mj-text>
-        <mj-text>restaurant@ecosup-hotellerie.fr</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400">17 place Charles et Albert Roussel</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400">59200 Tourcoing</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400">03 20 70 06 06</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400">restaurant@ecosup-hotellerie.fr</mj-text>
       </mj-column>
       <mj-column>
-        <mj-social mode="horizontal">
+        <mj-social icon-size="32px" mode="horizontal">
           <mj-social-element src="images/facebook.png" alt=""></mj-social-element>
           <mj-social-element src="images/instagram.png" alt=""></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="20px">
       <mj-column>
-        <mj-text>Cet e-mail a été envoyé à (email). Vous avez reçu cet email car vous vous êtes inscrit sur Ecosup Campus</mj-text>
-        <mj-text>se desinscrire</mj-text>
-        <mj-text>@2025 Ecosup Campus</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14" color="#888888">Cet e-mail a été envoyé à (email). Vous avez reçu cet email car vous vous êtes inscrit sur Ecosup Campus</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14" color="#666666">se desinscrire</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14" color="#888888">@2025 Ecosup Campus</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
