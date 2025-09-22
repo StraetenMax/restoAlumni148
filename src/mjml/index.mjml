@@ -320,11 +320,11 @@
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px">
+    <mj-section padding="10px 15px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T14" color="#888888">Cet e-mail a été envoyé à (email). Vous avez reçu cet email car vous vous êtes inscrit sur Ecosup Campus</mj-text>
-        <mj-text padding="0" align="center" mj-class="T14" color="#666666">se desinscrire</mj-text>
-        <mj-text padding="0" align="center" mj-class="T14" color="#888888">@2025 Ecosup Campus</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous vous êtes inscrit sur Ecosup Campus</mj-text>
+        <mj-text padding="0" padding-top="30px" align="center" mj-class="T14" color="#666666"><a style="color:#666666;" href="#">se desinscrire</a></mj-text>
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T14" color="#888888">@2025 Ecosup Campus</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
