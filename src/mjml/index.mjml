@@ -295,9 +295,9 @@
         <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Notre étudiant de la semaine</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-image src="images/etudiantSemaine.png" alt=""/>
+    <mj-section mj-class="bgWhite">
+      <mj-column padding="15px">
+        <mj-image padding="0px" width="610px" src="images/etudiantSemaine.png" alt=""/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgWhite" padding="20px">
