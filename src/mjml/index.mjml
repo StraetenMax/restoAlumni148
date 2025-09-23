@@ -286,8 +286,8 @@
       </mj-column>
     </mj-section>
     <mj-section>
-      <mj-column>
-        <mj-image src="images/produitSemaine.jpg" alt=""/>
+      <mj-column padding="15px">
+        <mj-image padding="0" width="610px" src="images/produitSemaine.jpg" alt=""/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgMarron" padding="10px 20px">
