@@ -315,7 +315,7 @@
         <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400">restaurant@ecosup-hotellerie.fr</mj-text>
       </mj-column>
       <mj-column>
-        <mj-social vertical-align="top" align="right" icon-size="32px" mode="horizontal">
+        <mj-social padding="0" vertical-align="top" align="right" icon-size="32px" mode="horizontal">
           <mj-social-element src="images/facebook.png" alt=""></mj-social-element>
           <mj-social-element src="images/instagram.png" alt=""></mj-social-element>
         </mj-social>
