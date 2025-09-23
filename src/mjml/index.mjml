@@ -184,8 +184,8 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
+    <mj-section mj-class="bgWhite">
+      <mj-column padding="15px">
         <mj-image padding="0" width="640px" src="images/ardoise.jpg" alt=""/>
       </mj-column>
     </mj-section>
