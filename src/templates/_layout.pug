@@ -31,13 +31,10 @@ mjml
             mj-class(name="cTMarron" color="#7A5231")/
             mj-class(name="bgMarron" background-color="#7A5231")/
         mj-breakpoint(width="480px")
-        mj-style. 
-            .textfooter{
-                text-align: left;
-            }
-            @media (min-width: 480px) {
+        mj-style.
+            @media (max-width: 480px) {
                 .textfooter {
-                    text-align: center!important;
+                    text-align: center !important;
                 }
             }
 

@@ -33,12 +33,9 @@
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
-      .textfooter{
-          text-align: left;
-      }
-      @media (min-width: 480px) {
+      @media (max-width: 480px) {
           .textfooter {
-              text-align: center!important;
+              text-align: center !important;
           }
       }
       
