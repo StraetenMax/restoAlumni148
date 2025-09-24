@@ -30,7 +30,17 @@ mjml
             mj-class(name="bgBeige" background-color="#AF7845")/
             mj-class(name="cTMarron" color="#7A5231")/
             mj-class(name="bgMarron" background-color="#7A5231")/
-        mj-breakpoint(width="545px")
+        mj-breakpoint(width="480px")
+        mj-style. 
+            .textfooter{
+                text-align: left;
+            }
+            @media (min-width: 480px) {
+                .textfooter {
+                    text-align: center!important;
+                }
+            }
+
     //- Body
     mj-body(background-color='#f9fAfA' width="640px")
         //- content
