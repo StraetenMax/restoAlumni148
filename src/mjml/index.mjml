@@ -198,6 +198,29 @@
       <mj-column padding="15px">
         <mj-image padding="0" width="640px" src="images/ardoise.jpg" alt=""/>
       </mj-column>
+      <mj-column>
+        <mj-text>Menu ardoise</mj-text>
+        <mj-table>
+          <tr>
+            <td>
+              <p>Menu "Je suis attendu..."</p>
+              <p>Entrée + Plat ou Plat + Dessert</p>
+            </td>
+            <td>
+              <p>17.00 €</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Menu "J'ai rendez-vous..."</p>
+              <p>Entrée + Plat + Dessert </p>
+            </td>
+            <td>
+              <p>20.00 €</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
     </mj-section>
     <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
