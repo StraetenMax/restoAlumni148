@@ -313,6 +313,11 @@
           </mj-table>
         </mj-column>
       </mj-section>
+      <mj-section mj-class="bgWhite" padding="20px">
+        <mj-column>
+          <mj-button padding="0" mj-class="T18 cTWhite bgMarron" font-weight="400" border-radius="4px">Réservez une table</mj-button>
+        </mj-column>
+      </mj-section>
     </mj-wrapper>
     <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
