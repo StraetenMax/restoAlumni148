@@ -377,9 +377,7 @@
     </mj-section>
     <mj-section mj-class="bgWhite" padding="20px">
       <mj-column>
-        <mj-button padding="0" mj-class="T16 cTWhite" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">Réservez une table</mj-button>
-        <mj-spacer height="40px"></mj-spacer>
-        <mj-button padding="0" mj-class="T18 cTMarron bgWhite" font-weight="400" border="2px solid #7A5231" border-radius="15px">En savoir plus sur Ecosup Hôtellerie</mj-button>
+        <mj-button padding="0" mj-class="T16 cTWhite" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">En savoir plus sur Ecosup Hôtellerie</mj-button>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgMarron" padding="20px 25px">
@@ -398,7 +396,7 @@
     </mj-section>
     <mj-section padding="10px 15px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T14" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous vous êtes inscrit sur Ecosup Campus</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous êtes inscrit sur Ecosup Hôtellerie</mj-text>
         <mj-text padding="0" padding-top="30px" align="center" mj-class="T14" color="#666666"><a style="color:#666666;" href="#">se desinscrire</a></mj-text>
         <mj-text padding="0" padding-top="10px" align="center" mj-class="T14" color="#888888">@2025 Ecosup Campus</mj-text>
       </mj-column>
