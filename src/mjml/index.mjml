@@ -203,25 +203,25 @@
       <mj-column padding="15px">
         <mj-image padding="0" width="640px" src="images/ardoise.jpg" alt=""/>
       </mj-column>
-      <mj-column>
-        <mj-text>Menu ardoise</mj-text>
+      <mj-column width="100%" padding="15px">
+        <mj-text align="center" text-transform="uppercase;">Menu ardoise</mj-text>
         <mj-table>
           <tr>
             <td>
-              <p>Menu "Je suis attendu..."</p>
-              <p>Entrée + Plat ou Plat + Dessert</p>
+              <p style="margin:0;font-size:18px;font-weight:400;">Menu "Je suis attendu..."</p>
+              <p style="padding:0;padding-left:20px;margin:0;font-size:16px">Entrée + Plat ou Plat + Dessert</p>
             </td>
-            <td>
-              <p>17.00 €</p>
+            <td style="vertical-align:top;">
+              <p style="margin:0;font-size:18px;font-weight:400;">17.00 €</p>
             </td>
           </tr>
           <tr>
             <td>
-              <p>Menu "J'ai rendez-vous..."</p>
-              <p>Entrée + Plat + Dessert </p>
+              <p style="margin:0;font-size:18px;font-weight:400;">Menu "J'ai rendez-vous..."</p>
+              <p style="padding:0;padding-left:20px;margin:0;font-size:16px;font-weight:400;">Entrée + Plat + Dessert </p>
             </td>
-            <td>
-              <p>20.00 €</p>
+            <td style="vertical-align:top;">
+              <p style="margin:0;font-size:18px;font-weight:400;">20.00 €</p>
             </td>
           </tr>
         </mj-table>
