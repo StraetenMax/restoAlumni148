@@ -418,7 +418,7 @@
               <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
             </td>
             <td>
-              <p style="margin:0;padding:0;padding-top:10px">Serveur chez Morel et Fils à Lille</p>
+              <p style="margin:0;padding:10px 0;">Serveur chez Morel et Fils à Lille</p>
             </td>
           </tr>
         </mj-table>
@@ -426,11 +426,28 @@
       <mj-column width="4%">
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
-      <mj-column width="48%">
+      <mj-column width="48%" padding="10px" vertical-align="bottom">
         <mj-text padding="0" padding-top="10px" align="center" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase">Mes missions</mj-text>
-        <mj-text> <img src="images/facebook.png"/> Assurer le petit déjeuner, le service du midi ou du soir</mj-text>
-        <mj-text>Assurer la continuité du bar</mj-text>
-        <mj-text>Donner aux clients l'envie de revenir</mj-text>
+        <mj-table padding="0" font-size="16px" line-height="20px" font-weight="400">
+          <tr>
+            <td style="padding-top:10px;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
+            <td style="padding-top:10px">
+              <p style="margin:0;padding-top:7px;padding-left:7px;">Assurer le petit déjeuner, le service du midi ou du soir</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top:10px;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
+            <td style="padding-top:10px;">
+              <p style="margin:0;padding-top:7px;padding-left:7px;">Assurer la continuité du bar</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:10px 0;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
+            <td style="padding:10px 0;">
+              <p style="margin:0;padding-top:7px;padding-left:7px;">Donner aux clients l'envie de revenir</p>
+            </td>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
     <mj-section padding="20px" background-color="#ffffff">
@@ -438,9 +455,9 @@
         <mj-text padding="0" padding-top="10px" align="center" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Loisirs</mj-text>
         <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voyager</span></mj-text>
         <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Natation</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#111044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Écouter de la musique</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#111044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Skier</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#111044;<span style="font-size:16px;font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voir mes amis</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Écouter de la musique</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Skier</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voir mes amis</span></mj-text>
       </mj-column>
       <mj-column width="4%">
         <mj-spacer height="20px"></mj-spacer>
