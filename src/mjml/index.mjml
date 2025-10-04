@@ -377,7 +377,7 @@
         <mj-text padding="10px 0" font-size="16px" line-height="20px" font-weight="400" color="#ffffff">Durant le petit déjeuner, vous retrouvez beaucoup de produits issues de producteurs locaux. Et les plats servis le midi et le soir sont entièrement fait maison et avec beaucoup de produits régionaux.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" background-color="#ffffff">
+    <mj-section padding="0 20px" background-color="#ffffff">
       <mj-column width="48%" padding="10px" background-color="#f5f4f1" border-radius="20px">
         <mj-text padding="0" align="center" padding-top="10px" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase">Expériences</mj-text>
         <mj-table padding="0" font-size="16px" line-height="20px" font-weight="400">
@@ -427,21 +427,25 @@
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
       <mj-column width="48%">
-        <mj-text>Mes missions</mj-text>
-        <mj-text>Assurer le petit déjeuner, le service du midi ou du soir</mj-text>
+        <mj-text padding="0" padding-top="10px" align="center" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase">Mes missions</mj-text>
+        <mj-text> <img src="images/facebook.png"/> Assurer le petit déjeuner, le service du midi ou du soir</mj-text>
         <mj-text>Assurer la continuité du bar</mj-text>
         <mj-text>Donner aux clients l'envie de revenir</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-text>Loisirs</mj-text>
-        <mj-text>Voyager</mj-text>
-        <mj-text>Natation</mj-text>
-        <mj-text>Écouter de la musique</mj-text>
-        <mj-text>Skier</mj-text>
-        <mj-text>Voir mes amis</mj-text>
+    <mj-section padding="20px" background-color="#ffffff">
+      <mj-column width="48%" padding="10px">
+        <mj-text padding="0" padding-top="10px" align="center" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Loisirs</mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voyager</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Natation</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#111044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Écouter de la musique</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#111044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Skier</span></mj-text>
+        <mj-text padding="0" padding-top="10px" color="#464646">&#111044;<span style="font-size:16px;font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voir mes amis</span></mj-text>
       </mj-column>
+      <mj-column width="4%">
+        <mj-spacer height="20px"></mj-spacer>
+      </mj-column>
+      <mj-column width="48%"></mj-column>
     </mj-section>
     <mj-section mj-class="bgWhite" padding="20px">
       <mj-column>
