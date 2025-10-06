@@ -346,7 +346,9 @@
     </mj-section>
     <mj-section padding="0">
       <mj-column width="100%">
-        <mj-image padding="0" width="640px" src="images/produitSemaine.jpg" alt=""/>
+        <mj-image padding="0" width="640px" src="images/produit01.png" alt=""/>
+        <mj-image padding="0" width="640px" src="images/produit02.png" alt=""/>
+        <mj-image padding="0" width="640px" src="images/produit03.png" alt=""/>
       </mj-column>
     </mj-section>
     <mj-section mj-class="bgMarron" padding="10px 20px">
