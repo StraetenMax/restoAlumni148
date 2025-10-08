@@ -245,7 +245,7 @@
         <mj-text padding="0" align="center" font-size="24px" line-height="28px" color="#35302D" font-weight="400">Carte "Sur le Pouce"</mj-text>
       </mj-column>
     </mj-section>
-    <mj-wrapper mj-class="bgWhite" padding="20px">
+    <mj-wrapper background-color="#ffffff" padding="20px">
       <mj-section padding="0">
         <mj-column width="48%" padding="10px" background-color="#F5F4F1" border-radius="20px">
           <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
@@ -333,15 +333,15 @@
           </mj-table>
         </mj-column>
       </mj-section>
-      <mj-section mj-class="bgWhite" padding="20px">
+      <mj-section background-color="#ffffff" padding="20px">
         <mj-column>
-          <mj-button padding="0" mj-class="T16 cTWhite" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">Réservez une table</mj-button>
+          <mj-button padding="0" font-size="16px" line-height="20px" color="#ffffff" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">Réservez une table</mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-section mj-class="bgMarron" padding="10px 20px">
+    <mj-section background-color="#35302D" padding="10px 20px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Le produit de la semaine</mj-text>
+        <mj-text padding="0" align="center" font-size="24px" line-height="28px" background-color="#F9F8F8" font-weight="400">Le produit de la semaine</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
