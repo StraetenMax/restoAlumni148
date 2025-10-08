@@ -48,11 +48,11 @@
         <mj-text padding="0" align="center" mj-class="T14" color="#888888">Si vous ne parvenez pas à lire cet email, <a style="color:#888888" href="#">cliquez ici</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgMarron" padding="10px 0">
+    <mj-section background-color="#35302D" padding="10px 0">
       <mj-column padding="20px">
         <mj-image padding="0" width="120px" src="images/ecosupBlanc.png" alt=""/>
         <mj-image padding="15px 0" width="281px" src="images/nomRestaurant.png" alt=""/>
-        <mj-text padding="0" padding-top="15px" mj-class="T17 cTGreyWhite" font-weight="900">Newsletter n° 148</mj-text>
+        <mj-text padding="0" padding-top="15px" font-size="17px" line-height="21px" color="#f9f8f8" font-weight="900">Newsletter n° 148</mj-text>
       </mj-column>
       <mj-column padding="20px">
         <mj-image padding="0" border-radius="10px" width="281px" fluid-on-mobile="true" src="images/salleRestaurant.jpg" alt=""/>
