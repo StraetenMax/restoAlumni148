@@ -2,7 +2,6 @@
 <mjml>
   <mj-head>
     <mj-title>News Ecosup Hôtellerie</mj-title>
-    <mj-font name="Permanent Marker" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&amp;display=swap"></mj-font>
     <mj-raw>
       <meta charset="UTF-8">
       <meta name='color-scheme' content='light'/>
@@ -29,8 +28,8 @@
       <mj-class name="bgBlack" background-color="#000000"/>
       <mj-class name="cTOr" color="#B59F6B"/>
       <mj-class name="bgOr" background-color="#B59F6B"/>
-      <mj-class name="cTMarron" color="#35302D"/>
-      <mj-class name="bgMarron" background-color="#35302D"/>
+      <mj-class name="cTMarron" color="#7A5231"/>
+      <mj-class name="bgMarron" background-color="#7A5231"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
