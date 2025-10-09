@@ -19,28 +19,20 @@
       <mj-class name="T16" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px"/>
       <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
       <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>           mj-class(name='T13-400' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='13px' line-height='18px' font-weight='400')/
-      <mj-class name="cTWhite" color="#ffffff"/>
-      <mj-class name="bgWhite" background-color="#ffffff"/>
-      <mj-class name="cTGreyWhite" color="#f9f8f8"/>
-      <mj-class name="bgGreyWhite" background-color="#f9f8f8"/>
-      <mj-class name="cTGrey" color="#3B3F44"/>
-      <mj-class name="bgGrey" background-color="#3B3F44"/>
-      <mj-class name="cTBlack" color="#000000"/>
-      <mj-class name="bgBlack" background-color="#000000"/>
-      <mj-class name="cTOr" color="#B59F6B"/>
-      <mj-class name="bgOr" background-color="#B59F6B"/>
-      <mj-class name="cTMarron" color="#35302D"/>
-      <mj-class name="bgMarron" background-color="#35302D"/>
+      <mj-class name="cTW" color="#ffffff"/>
+      <mj-class name="bgW" background-color="#ffffff"/>
+      <mj-class name="cTGW" color="#f9f8f8"/>
+      <mj-class name="bgGW" background-color="#f9f8f8"/>
+      <mj-class name="cTG" color="#3B3F44"/>
+      <mj-class name="bgG" background-color="#3B3F44"/>
+      <mj-class name="cTB" color="#000000"/>
+      <mj-class name="bgB" background-color="#000000"/>
+      <mj-class name="cTO" color="#B59F6B"/>
+      <mj-class name="bgO" background-color="#B59F6B"/>
+      <mj-class name="cTB" color="#35302D"/>
+      <mj-class name="bgB" background-color="#35302D"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
-    <mj-style>
-      @media (max-width: 480px) {
-          .textfooter {
-              text-align: center !important;
-          }
-      }
-      
-    </mj-style>
   </mj-head>
   <mj-body background-color="#f5f4f1" width="640px">
     <mj-section padding="20px" padding-bottom="10px">
