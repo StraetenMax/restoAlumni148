@@ -456,12 +456,12 @@
       </mj-column>
       <mj-column width="48%"></mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="50px 20px">
+    <mj-section mj-class="bgW" padding="50px 20px">
       <mj-column>
         <mj-button padding="0" font-family="Arial, Helvetica, sans-serif" font-size="16px" line-height="20px" color="#ffffff" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">En savoir plus sur Ecosup Hôtellerie</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#35302D" padding="40px 20px">
+    <mj-section mj-class="bgB" padding="40px 20px">
       <mj-column>
         <mj-image padding="0" width="160px" src="images/ecosupBlanc.png" alt=""/>
         <mj-spacer height="10px"></mj-spacer>
