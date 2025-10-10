@@ -27,6 +27,7 @@
       <mj-class name="bgGW" background-color="#f9f8f8"/>
       <mj-class name="cTG" color="#3B3F44"/>
       <mj-class name="bgG" background-color="#3B3F44"/>
+      <mj-class name="cTGM" color="#464646"></mj-class>
       <mj-class name="cTB" color="#000000"/>
       <mj-class name="bgB" background-color="#000000"/>
       <mj-class name="cTO" color="#B59F6B"/>
@@ -357,7 +358,7 @@
     </mj-section>
     <mj-section mj-class="bgW" padding="20px">
       <mj-column padding="10px" width="48%" background-color="#f5f4f1" border-radius="20px" vertical-align="bottom">
-        <mj-text padding="0" align="center" padding-top="10px" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Simon jourde</mj-text>
+        <mj-text padding="0" align="center" padding-top="10px" mj-class="T16 fw1 cTGM" text-transform="uppercase">Simon jourde</mj-text>
         <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTGM">Je m'appelle Simon, actuellement en première année de BTS restauration, option salle, à Ecosup. Je fais cette année en alternance, dans le restaurant de l'hôtel du Why à Lille.</mj-text>
         <mj-text padding="10px 0" mj-class="T16 fw0 cTGM">Pourquoi la restauration ? Car après avoir fait 2 ans de commerce à l'IAE, j'ai décidé de faire ce qui me permettrait le plus rapidement d'ouvrir mon propre restaurant.</mj-text>
       </mj-column>
@@ -421,8 +422,8 @@
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
       <mj-column width="48%" padding="10px" vertical-align="bottom">
-        <mj-text padding="0" padding-top="10px" align="center" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Mes missions</mj-text>
-        <mj-table padding="0" font-size="16px" line-height="20px" font-weight="400" color="#464646">
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Mes missions</mj-text>
+        <mj-table padding="0" mj-class="T16 fw0 cTGM">
           <tr>
             <td style="padding-top:10px;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
             <td style="padding-top:10px">
@@ -444,7 +445,7 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" mj-class="cTW">
+    <mj-section padding="20px" mj-class="bgW">
       <mj-column width="48%" padding="10px">
         <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Loisirs</mj-text>
         <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voyager</span></mj-text>
