@@ -17,8 +17,9 @@
       <mj-class name="T24" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px"/>
       <mj-class name="T18" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="22px"/>
       <mj-class name="T16" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px"/>
-      <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
       <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>           mj-class(name='T13-400' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='13px' line-height='18px' font-weight='400')/
+      <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
+      <mj-class name="T12" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="18px"/>
       <mj-class name="fw0" font-weight="400"></mj-class>
       <mj-class name="fw2" font-weight="700"></mj-class>
       <mj-class name="fw1" font-weight="900"></mj-class>
@@ -469,8 +470,8 @@
       <mj-column>
         <mj-image padding="0" width="160px" src="images/ecosupBlanc.png" alt=""/>
         <mj-spacer height="10px"></mj-spacer>
-        <mj-text padding="0" align="center" font-size="12px" font-style="normal" font-weight="400" line-height="18px" color="#ffffff">17 place Charles et Albert Roussel</mj-text>
-        <mj-text padding="0" align="center" font-size="12px" font-style="normal" font-weight="400" line-height="18px" color="#ffffff">59200 Tourcoing</mj-text>
+        <mj-text padding="0" align="center" mj-class="T12 fw0 cTW">17 place Charles et Albert Roussel</mj-text>
+        <mj-text padding="0" align="center" mj-class="T12 fw0 cTW">59200 Tourcoing</mj-text>
         <mj-text padding="0" align="center" font-size="14px" font-style="normal" font-weight="900" line-height="20px" color="#ffffff">03 20 70 06 06</mj-text>
         <mj-text padding="0" align="center" font-size="14px" font-style="normal" font-weight="400" line-height="20px" color="#ffffff">contact@restaurant-alumni.fr</mj-text>
         <mj-spacer height="10px"></mj-spacer>
