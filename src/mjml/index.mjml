@@ -19,6 +19,8 @@
       <mj-class name="T16" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px"/>
       <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
       <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>           mj-class(name='T13-400' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='13px' line-height='18px' font-weight='400')/
+      <mj-class name="fw0" font-weight="400"></mj-class>
+      <mj-class name="fw1" font-weight="900"></mj-class>
       <mj-class name="cTW" color="#ffffff"/>
       <mj-class name="bgW" background-color="#ffffff"/>
       <mj-class name="cTGW" color="#f9f8f8"/>
@@ -29,8 +31,8 @@
       <mj-class name="bgB" background-color="#000000"/>
       <mj-class name="cTO" color="#B59F6B"/>
       <mj-class name="bgO" background-color="#B59F6B"/>
-      <mj-class name="cTB" color="#35302D"/>
-      <mj-class name="bgB" background-color="#35302D"/>
+      <mj-class name="cTM" color="#35302D"/>
+      <mj-class name="bgM" background-color="#35302D"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
@@ -191,7 +193,7 @@
       </mj-column>
     </mj-section>
     <mj-wrapper mj-class="bgW" padding="20px 0">
-      <mj-section background-url="images/fondArdoise.png" mj-class="bgB" padding="0">
+      <mj-section background-url="images/fondArdoise.png" mj-class="bgM" padding="0">
         <mj-column width="479px" padding="25px">
           <mj-text align="center" padding="0" padding-bottom="20px" font-family="'Permanent Marker', Cursive" font-style="Normal" font-size="30px" line-height="38px" font-weight="400" color="#f6f4f4" text-transform="uppercase;" letter-spacing="1px">Menu ardoise</mj-text>
           <mj-table padding="0">
@@ -343,36 +345,36 @@
         <mj-image padding="0" width="640px" src="images/produit03.png" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#35302D" padding="10px 20px">
+    <mj-section mj-class="bgM" padding="10px 20px">
       <mj-column>
-        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" color="#f9f8f8" font-weight="400">Notre étudiant de la semaine</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 fw0" color="#f9f8f8">Notre étudiant de la semaine</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#35302D" padding="0" padding-bottom="15px">
+    <mj-section mj-class="bgM" padding="0" padding-bottom="15px">
       <mj-column width="100%">
         <mj-image padding="0px" width="640px" src="images/Why.png" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" background-color="#ffffff">
+    <mj-section mj-class="bgW" padding="20px">
       <mj-column padding="10px" width="48%" background-color="#f5f4f1" border-radius="20px" vertical-align="bottom">
         <mj-text padding="0" align="center" padding-top="10px" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Simon jourde</mj-text>
-        <mj-text padding="0" padding-top="10px" font-size="16px" line-height="20px" font-weight="400" color="#464646">Je m'appelle Simon, actuellement en première année de BTS restauration, option salle, à Ecosup. Je fais cette année en alternance, dans le restaurant de l'hôtel du Why à Lille.</mj-text>
-        <mj-text padding="10px 0" font-size="16px" line-height="20px" font-weight="400" color="#464646">Pourquoi la restauration ? Car après avoir fait 2 ans de commerce à l'IAE, j'ai décidé de faire ce qui me permettrait le plus rapidement d'ouvrir mon propre restaurant.</mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTGM">Je m'appelle Simon, actuellement en première année de BTS restauration, option salle, à Ecosup. Je fais cette année en alternance, dans le restaurant de l'hôtel du Why à Lille.</mj-text>
+        <mj-text padding="10px 0" mj-class="T16 fw0 cTGM">Pourquoi la restauration ? Car après avoir fait 2 ans de commerce à l'IAE, j'ai décidé de faire ce qui me permettrait le plus rapidement d'ouvrir mon propre restaurant.</mj-text>
       </mj-column>
       <mj-column width="4%">
         <mj-spacer height="20px"> </mj-spacer>
       </mj-column>
-      <mj-column padding="10px" width="48%" background-color="#35302D" border-radius="20px">
-        <mj-text padding="0" align="center" padding-top="10px" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#ffffff">Why</mj-text>
-        <mj-text padding="0" padding-top="10px" font-size="16px" line-height="20px" font-weight="400" color="#ffffff">Le Why est un hôtel 4 étoiles en plein coeur de Lille, juste à côté de la place Rihour.</mj-text>
-        <mj-text padding="0" padding-top="10px" font-size="16px" line-height="20px" font-weight="400" color="#ffffff">C'est un hôtel Best Western ce qui est gage d'une certaine qualité et d'un certain standing.</mj-text>
-        <mj-text padding="10px 0" font-size="16px" line-height="20px" font-weight="400" color="#ffffff">Durant le petit déjeuner, vous retrouvez beaucoup de produits issues de producteurs locaux. Et les plats servis le midi et le soir sont entièrement fait maison et avec beaucoup de produits régionaux.</mj-text>
+      <mj-column width="48%" padding="10px" mj-class="bgM" border-radius="20px">
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTW" text-transform="uppercase">Why</mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTW">Le Why est un hôtel 4 étoiles en plein coeur de Lille, juste à côté de la place Rihour.</mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTW">C'est un hôtel Best Western ce qui est gage d'une certaine qualité et d'un certain standing.</mj-text>
+        <mj-text padding="10px 0" mj-class="T16 fw0 cTW">Durant le petit déjeuner, vous retrouvez beaucoup de produits issues de producteurs locaux. Et les plats servis le midi et le soir sont entièrement fait maison et avec beaucoup de produits régionaux.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="0 20px" background-color="#ffffff">
+    <mj-section padding="0 20px" mj-class="bgW">
       <mj-column width="48%" padding="10px" background-color="#f5f4f1" border-radius="20px">
-        <mj-text padding="0" align="center" padding-top="10px" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Expériences</mj-text>
-        <mj-table padding="0" font-size="16px" line-height="20px" font-weight="400" color="#464646">
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Expériences</mj-text>
+        <mj-table padding="0" mj-class="T16 fw0 cTGM">
           <tr>
             <td style="vertical-align:top;">
               <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
@@ -442,14 +444,14 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" background-color="#ffffff">
+    <mj-section padding="20px" mj-class="cTW">
       <mj-column width="48%" padding="10px">
-        <mj-text padding="0" padding-top="10px" align="center" font-size="16px" line-height="20px" font-weight="900" text-transform="uppercase" color="#464646">Loisirs</mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voyager</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Natation</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Écouter de la musique</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Skier</span></mj-text>
-        <mj-text padding="0" padding-top="10px" color="#464646">&#11044;<span style="font-size:16px;font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voir mes amis</span></mj-text>
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Loisirs</mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voyager</span></mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Natation</span></mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Écouter de la musique</span></mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Skier</span></mj-text>
+        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voir mes amis</span></mj-text>
       </mj-column>
       <mj-column width="4%">
         <mj-spacer height="20px"></mj-spacer>
