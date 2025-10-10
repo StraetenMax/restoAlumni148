@@ -190,8 +190,8 @@
         <mj-button padding="0" font-size="16px" line-height="20px" font-style="normal" color="#ffffff" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">Réservez une table</mj-button>
       </mj-column>
     </mj-section>
-    <mj-wrapper background-color="#ffffff" padding="20px 0">
-      <mj-section background-url="images/fondArdoise.png" background-color="#35302D" padding="0">
+    <mj-wrapper mj-class="bgW" padding="20px 0">
+      <mj-section background-url="images/fondArdoise.png" mj-class="bgB" padding="0">
         <mj-column width="479px" padding="25px">
           <mj-text align="center" padding="0" padding-bottom="20px" font-family="'Permanent Marker', Cursive" font-style="Normal" font-size="30px" line-height="38px" font-weight="400" color="#f6f4f4" text-transform="uppercase;" letter-spacing="1px">Menu ardoise</mj-text>
           <mj-table padding="0">
