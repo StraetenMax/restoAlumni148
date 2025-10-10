@@ -20,6 +20,7 @@
       <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
       <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>           mj-class(name='T13-400' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='13px' line-height='18px' font-weight='400')/
       <mj-class name="fw0" font-weight="400"></mj-class>
+      <mj-class name="fw2" font-weight="700"></mj-class>
       <mj-class name="fw1" font-weight="900"></mj-class>
       <mj-class name="cTW" color="#ffffff"/>
       <mj-class name="bgW" background-color="#ffffff"/>
@@ -53,12 +54,12 @@
         <mj-image padding="0" border-radius="10px" width="281px" fluid-on-mobile="true" src="images/salleRestaurant.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#35302D" padding="10px 20px">
+    <mj-section padding="10px 20px" mj-class="bgM">
       <mj-column>
-        <mj-text padding="0" align="center" font-size="24px" line-height="28px" color="#B59F6B" font-weight="400">Carte de l'"Expérientiel"</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 fw0 cTO">Carte de l'"Expérientiel"</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="10px">
+    <mj-section padding="10px" mj-class="bgW">
       <mj-column width="45%" padding="10px">
         <mj-image padding="20px 0" width="290px" src="images/plat1News.png" alt=""/>
       </mj-column>
@@ -96,7 +97,7 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="10px">
+    <mj-section padding="10px" mj-class="bgW">
       <mj-column width="45%" padding="10px">
         <mj-image padding="20px 0" width="290px" src="images/plat2News.png" alt=""/>
       </mj-column>
@@ -134,7 +135,7 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="10px">
+    <mj-section padding="10px" mj-class="bgW">
       <mj-column width="45%" padding="10px">
         <mj-image padding="20px 0" width="290px" src="images/plat3News.png" alt=""/>
       </mj-column>
@@ -188,9 +189,9 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px">
+    <mj-section padding="20px" mj-class="bgW">
       <mj-column>
-        <mj-button padding="0" font-size="16px" line-height="20px" font-style="normal" color="#ffffff" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">Réservez une table</mj-button>
+        <mj-button padding="0" mj-class="T16 fw2 bgO cTW" border-radius="4px" text-transform="uppercase">Réservez une table</mj-button>
       </mj-column>
     </mj-section>
     <mj-wrapper mj-class="bgW" padding="20px 0">
