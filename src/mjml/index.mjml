@@ -237,12 +237,12 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-section background-color="#35302D" padding="10px 20px">
+    <mj-section padding="10px 20px" mj-class="bgM">
       <mj-column>
-        <mj-text padding="0" align="center" font-size="24px" line-height="28px" color="#B59F6B" font-weight="400">Carte "Sur le Pouce"</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 fw0 cTO">Carte "Sur le Pouce"</mj-text>
       </mj-column>
     </mj-section>
-    <mj-wrapper background-color="#ffffff" padding="20px">
+    <mj-wrapper mj-class="bgW" padding="20px">
       <mj-section padding="0">
         <mj-column width="48%" padding="10px" background-color="#F5F4F1" border-radius="20px">
           <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
@@ -330,7 +330,7 @@
           </mj-table>
         </mj-column>
       </mj-section>
-      <mj-section background-color="#ffffff" padding="20px">
+      <mj-section padding="20px" mj-class="bgW">
         <mj-column>
           <mj-button>Réservez une table</mj-button>
         </mj-column>
