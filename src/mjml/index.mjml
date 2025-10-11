@@ -16,10 +16,11 @@
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
       <mj-class name="T24" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px"/>
       <mj-class name="T18" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="22px"/>
-      <mj-class name="T16" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px"/>
       <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>
-      <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
-      <mj-class name="T12" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="18px"/>
+      <mj-class name="T16" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px"/>
+      <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px"/>
+      <mj-class name="T12" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="16px"/>
+      <mj-class name="T10" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="14px"/>
       <mj-class name="fw0" font-weight="400"/>
       <mj-class name="fw1" font-weight="900"/>
       <mj-class name="fw2" font-weight="700"/>
@@ -471,8 +472,8 @@
         <mj-spacer height="10px"></mj-spacer>
         <mj-text padding="0" align="center" mj-class="T12 fw0 cTW">17 place Charles et Albert Roussel</mj-text>
         <mj-text padding="0" align="center" mj-class="T12 fw0 cTW">59200 Tourcoing</mj-text>
-        <mj-text padding="0" align="center" font-size="14px" font-style="normal" font-weight="900" line-height="20px" color="#ffffff">03 20 70 06 06</mj-text>
-        <mj-text padding="0" align="center" font-size="14px" font-style="normal" font-weight="400" line-height="20px" color="#ffffff">contact@restaurant-alumni.fr</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14 fw1 cTW">03 20 70 06 06</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14 fw0 cTW">contact@restaurant-alumni.fr</mj-text>
         <mj-spacer height="10px"></mj-spacer>
         <mj-social padding="0" vertical-align="top" align="center" icon-size="32px" icon-padding="15px" mode="horizontal">
           <mj-social-element src="images/facebookNews.png" alt=""></mj-social-element>
@@ -482,9 +483,9 @@
     </mj-section>
     <mj-section padding="10px 30px">
       <mj-column>
-        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="16px" font-weight="400" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous êtes inscrit sur Restaurant Alumni</mj-text>
-        <mj-text padding="0" padding-top="20px" align="center" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="16px" font-weight="400"><a style="color:#666666;" href="#">se desinscrire</a></mj-text>
-        <mj-text padding="0" padding-top="10px" align="center" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="14px" font-weight="400" color="#888888">@2025 Restaurant Alumni</mj-text>
+        <mj-text padding="0" align="center" mj-class="T12 fw0" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous êtes inscrit sur Restaurant Alumni</mj-text>
+        <mj-text padding="0" padding-top="20px" align="center" mj-class="T12 fw0"><a style="color:#666666;" href="#">se desinscrire</a></mj-text>
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T10 fw0" color="#888888">@2025 Restaurant Alumni</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
