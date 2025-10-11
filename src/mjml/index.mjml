@@ -2,7 +2,6 @@
 <mjml>
   <mj-head>
     <mj-title>News Ecosup Hôtellerie</mj-title>
-    <mj-font name="Permanent Marker" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&amp;display=swap"></mj-font>
     <mj-raw>
       <meta charset="UTF-8">
       <meta name='color-scheme' content='light'/>
@@ -16,28 +15,31 @@
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
       <mj-class name="T24" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px"/>
       <mj-class name="T18" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="22px"/>
-      <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>
       <mj-class name="T16" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px"/>
-      <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px"/>
-      <mj-class name="T12" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="16px"/>
-      <mj-class name="T10" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="10px" line-height="14px"/>
-      <mj-class name="fw0" font-weight="400"/>
-      <mj-class name="fw1" font-weight="900"/>
-      <mj-class name="fw2" font-weight="700"/>
-      <mj-button padding="0" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" color="#ffffff" background-color="#B59F6B" border-radius="4px" text-transform="uppercase"></mj-button>
-      <mj-class name="cTW" color="#ffffff"/>
-      <mj-class name="bgW" background-color="#ffffff"/>
-      <mj-class name="cTGW" color="#f9f8f8"/>
-      <mj-class name="bgGW" background-color="#f9f8f8"/>
-      <mj-class name="cTGM" color="#464646"></mj-class>
-      <mj-class name="cTB" color="#000000"/>
-      <mj-class name="bgB" background-color="#000000"/>
-      <mj-class name="cTO" color="#B59F6B"/>
-      <mj-class name="bgO" background-color="#B59F6B"/>
-      <mj-class name="cTM" color="#35302D"/>
-      <mj-class name="bgM" background-color="#35302D"/>
+      <mj-class name="T14" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="16px"/>
+      <mj-class name="T17" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="21px"/>           mj-class(name='T13-400' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='13px' line-height='18px' font-weight='400')/
+      <mj-class name="cTWhite" color="#ffffff"/>
+      <mj-class name="bgWhite" background-color="#ffffff"/>
+      <mj-class name="cTGreyWhite" color="#f9f8f8"/>
+      <mj-class name="bgGreyWhite" background-color="#f9f8f8"/>
+      <mj-class name="cTGrey" color="#3B3F44"/>
+      <mj-class name="bgGrey" background-color="#3B3F44"/>
+      <mj-class name="cTBlack" color="#000000"/>
+      <mj-class name="bgBlack" background-color="#000000"/>
+      <mj-class name="cTOr" color="#B59F6B"/>
+      <mj-class name="bgOr" background-color="#B59F6B"/>
+      <mj-class name="cTMarron" color="#7A5231"/>
+      <mj-class name="bgMarron" background-color="#7A5231"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>
+      @media (max-width: 480px) {
+          .textfooter {
+              text-align: center !important;
+          }
+      }
+      
+    </mj-style>
   </mj-head>
   <mj-body background-color="#f5f4f1" width="640px">
     <mj-section padding="20px" padding-bottom="10px">
@@ -45,447 +47,295 @@
         <mj-text padding="0" align="center" mj-class="T14" color="#888888">Si vous ne parvenez pas à lire cet email, <a style="color:#888888" href="#">cliquez ici</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgM" padding="10px 0">
-      <mj-column padding="20px">
-        <mj-image padding="0" width="120px" src="images/ecosupBlanc.png" alt=""/>
-        <mj-image padding="15px 0" width="281px" src="images/nomRestaurant.png" alt=""/>
-        <mj-text padding="0" padding-top="15px" mj-class="T17 fw1 cTGW">Newsletter n° 148</mj-text>
-      </mj-column>
-      <mj-column padding="20px">
-        <mj-image padding="0" border-radius="10px" width="281px" fluid-on-mobile="true" src="images/salleRestaurant.jpg" alt=""/>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="10px 20px" mj-class="bgM">
+    <mj-wrapper mj-class="bgWhite" padding="20px 0">
+      <mj-section mj-class="bgMarron" padding="10px 0">
+        <mj-column padding="8px">
+          <mj-image padding="0" width="120px" src="images/ecosupBlanc.png" alt=""/>
+          <mj-image padding="15px 0" width="281px" src="images/nomRestaurant.png" alt=""/>
+          <mj-text padding="0" padding-top="15px" mj-class="T17 cTGreyWhite" font-weight="900">Newsletter n° 148</mj-text>
+        </mj-column>
+        <mj-column padding="8px">
+          <mj-image padding="0" border-radius="10px" width="281px" fluid-on-mobile="true" src="images/salleRestaurant.jpg" alt=""/>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 fw0 cTO">Carte de l'"Expérientiel"</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Carte de l'Expérientiel</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px" mj-class="bgW">
+    <mj-section mj-class="bgWhite" padding="10px">
       <mj-column width="45%" padding="10px">
-        <mj-image padding="20px 0" width="290px" src="images/plat1News.png" alt=""/>
+        <mj-image padding="15px 0" width="290px" src="images/plat1.jpg" alt=""/>
       </mj-column>
       <mj-column width="55% " padding="10px">
         <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
           <tr>
             <td style="padding-bottom:10px">
-              <p style="padding:0;margin:0;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#B59F6B;">Pour débuter</p>
+              <p style="padding:0;margin:0;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#7A5231;">Pour débuter</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Bouchée vapeur sauce Thaï</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Bouchée vapeur sauce Thaï</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">10.50 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">10.50 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Paupiette de veau façon cordon bleu</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Paupiette de veau façon cordon bleu</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">10.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">10.00 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Velouté Ajo Bianco</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Velouté Ajo Bianco</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">9.50 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">9.50 €</p>
             </td>
           </tr>
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px" mj-class="bgW">
+    <mj-section mj-class="bgWhite" padding="10px">
       <mj-column width="45%" padding="10px">
-        <mj-image padding="20px 0" width="290px" src="images/plat2News.png" alt=""/>
+        <mj-image padding="15px 0" width="290px" src="images/plat2.jpg" alt=""/>
       </mj-column>
       <mj-column width="55%" padding="10px">
         <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
           <tr>
             <td style="padding-bottom:10px">
-              <p style="padding:0;margin:0;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#B59F6B;">Pour Suivre</p>
+              <p style="padding:0;margin:0;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#7A5231;">Pour Suivre</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Tartare de boeuf au couteau, haricots verts en tempura</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">tartare de boeuf au couteau, haricots verts en tempura</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">15.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">15.00 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Filet mignon basse température, sauce Maroilles, polenta croustillante</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Filet mignon basse température, sauce Maroilles, polenta croustillante</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">14.50 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">14.50 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:21px;color:#909090;">Sébaste rôti au beurre, bisque de crustacés, siphon de pomme de terre</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">Sébaste rôti au beurre, bisque de crustacés, siphon de pomme de terre</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">14.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">14.00 €</p>
             </td>
           </tr>
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px" mj-class="bgW">
+    <mj-section mj-class="bgWhite" padding="10px">
       <mj-column width="45%" padding="10px">
-        <mj-image padding="20px 0" width="290px" src="images/plat3News.png" alt=""/>
+        <mj-image padding="0" width="290px" src="images/plat3.png" alt=""/>
       </mj-column>
       <mj-column width="55%" padding="10px">
         <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
           <tr>
             <td style="padding-bottom:10px">
-              <p style="padding:0;margin:0;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#B59F6B;">Pour terminer</p>
+              <p style="padding:0;margin:0;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#7A5231;">Pour terminer</p>
             </td>
           </tr>
           <tr> 
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Assiette Gourmande</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Assiette Gourmande</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">7.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">7.00 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Coupe de glaces et sorbets</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Coupe de glaces et sorbets</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">5.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">5.00 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Café ou thé gourmand</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Café ou thé gourmand</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">9.50 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">9.50 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Tiramisu au spéculoos</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Tiramisu au spéculoos</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">7.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">7.00 €</p>
             </td>
           </tr>
           <tr>
             <td width="70%" style="padding-bottom:18px;padding-right:10px">
-              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#909090;">Crème renversée au caramel</p>
+              <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Crème renversée au caramel</p>
             </td>
             <td width="30%" style="padding-bottom:18px;vertical-align:top">
-              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#909090;">6.00 €</p>
+              <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">6.00 €</p>
             </td>
           </tr>
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section padding="20px" mj-class="bgW">
-      <mj-column>
-        <mj-button>Réservez une table</mj-button>
+    <mj-section background-color="#ffffff">
+      <mj-column padding="15px">
+        <mj-image padding="0" width="640px" src="images/ardoise.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-wrapper mj-class="bgW" padding="20px 0">
-      <mj-section background-url="images/fondArdoise.png" mj-class="bgM" padding="0">
-        <mj-column width="479px" padding="25px">
-          <mj-text align="center" padding="0" padding-bottom="20px" font-family="'Permanent Marker', Cursive" font-style="Normal" font-size="30px" line-height="38px" font-weight="400" color="#f6f4f4" text-transform="uppercase;" letter-spacing="1px">Menu ardoise</mj-text>
-          <mj-table padding="0">
-            <tr>
-              <td width="75%">
-                <p style="padding:0;margin:0;font-family:Arial,Helvetica,sans-serif;font-style:Normal;font-size:16px;line-height:20px;font-weight:400;color:#f6f4f4;">Menu</p>
-              </td>
-              <td width="25%">
-                <p style="text-align:right;margin:0;font-family:Arial,Helvetica,sans-serif;font-style:normal;font-size:18px;line-height:30px;font-weight:400;color:#f6f4f4;">17.00&nbsp;€</p>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <p style="margin:0;font-family:'Permanent Marker',Cursive;font-style:normal;font-size:24px;line-height:30px;font-weight:400;color:#f6f4f4;">"Je suis attendu..."</p>
-                <p style="padding:0;padding-left:20px;margin:0;font-family:Arial,Helvetica,sans-serif;font-style:italic;font-size:16px;line-height:20px;font-wight:400;color:#f6f4f4;">Entrée + Plat ou Plat + Dessert</p>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" style="margin:20px;">
-                <p>&nbsp;</p>
-              </td>
-            </tr>
-            <tr>
-              <td width="75%">
-                <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-style:normal;font-size:16px;line-height:20px;font-weight:400;color:#f6f4f4;">Menu</p>
-              </td>
-              <td width="25%">
-                <p style="text-align:right;margin:0;font-family:Arial,Helvetica,sans-serif;font-style:normal;font-size:18px;line-height:30px;font-weight:400;color:#f6f4f4;">20.00&nbsp;€</p>
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <p style="margin:0;font-family:'Permanent Marker', Cursive;font-style:normal;font-size:24px;line-height:30px;font-weight:400;color:#f6f4f4;">"J'ai rendez-vous..."</p>
-                <p style="padding:0;padding-left:20px;margin:0;font-family:Arial,Helvetica,sans-serif;font-style:italic;font-size:16px;line-height:20px;font-weight:400;color:#f6f4f4;">Entrée + Plat + Dessert </p>
-              </td>
-            </tr>
-          </mj-table>
-        </mj-column>
-      </mj-section>
-    </mj-wrapper>
-    <mj-section padding="10px 20px" mj-class="bgM">
+    <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 fw0 cTO">Carte "Sur le Pouce"</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Carte Sur le Pouce</mj-text>
       </mj-column>
     </mj-section>
-    <mj-wrapper mj-class="bgW" padding="20px">
+    <mj-wrapper mj-class="bgWhite" padding="20px">
       <mj-section padding="0">
-        <mj-column width="48%" padding="10px" background-color="#F5F4F1" border-radius="20px">
+        <mj-column>
           <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
             <tr>
               <td colspan="2" style="padding-bottom:10px">
-                <p style="padding:0;margin:0;text-align:center;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#B59F6B;">Un P'tit Creux</p>
+                <p style="padding:0;margin:0;text-align:center;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#7A5231;">Un P'tit Creux</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:18px;padding-right:10px"> 
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646">Plat du jour</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000">Plat du jour</p>
               </td>
               <td width="30%" style="padding-bottom:18px;vertical-align:top;"> 
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">12.00 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">12.00 €</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Bouddha bowl</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Bouddha bowl</p>
               </td>
               <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">13.00 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">13.00 €</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Burger végé</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Burger végé</p>
               </td>
               <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">13.00 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">13.00 €</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:10px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Tagliatelles bolognaise</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000">Tagliatelles bolognaise</p>
               </td>
               <td width="30%" style="padding-bottom:10px;vertical-align:top;">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">12.50 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">12.50 €</p>
               </td>
             </tr>
           </mj-table>
         </mj-column>
-        <mj-column width="4%">
-          <mj-spacer height="20px"></mj-spacer>
-        </mj-column>
-        <mj-column width="48%" padding="10px" background-color="#f5f4f1" border-radius="20px">
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
           <mj-table padding="0" font-family="Arial, Helvetica, sans-serif">
             <tr>
               <td colspan="2" style="padding-bottom:10px">
-                <p style="padding:0;margin:0;text-align:center;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#B59F6B;">Un P'tit plaisir sucré</p>
+                <p style="padding:0;margin:0;text-align:center;font-size:18px;font-style:normal;font-weight:700;line-height:22px;color:#7A5231;">Un P'tit plaisir sucré</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Dessert du jour</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Dessert du jour</p>
               </td>
               <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">6.00 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">6.00 €</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Salade de fruits</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Salade de fruits</p>
               </td>
               <td width="30%" style="padding-bottom:18px;vertical-align:top">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646">4.50 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000">4.50 €</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:18px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Café gourmand</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Café gourmand</p>
               </td>
               <td width="30%" style="padding-bottom:18px;vertical-align:top;">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">9.00 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">9.00 €</p>
               </td>
             </tr>
             <tr>
               <td width="70%" style="padding-bottom:10px;padding-right:10px;">
-                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:700;line-height:20px;color:#464646;">Assiette gourmande</p>
+                <p style="padding:0;margin:0;font-size:16px;font-style:normal;font-weight:400;line-height:20px;color:#000000;">Assiette gourmande</p>
               </td>
               <td width="30%" style="padding-bottom:10px;vertical-align:top;">
-                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#464646;">6.50 €</p>
+                <p style="padding:0;margin:0;text-align:right;font-size:17px;font-style:normal;font-weight:400;line-height:21px;color:#000000;">6.50 €</p>
               </td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
-      <mj-section padding="20px" mj-class="bgW">
-        <mj-column>
-          <mj-button>Réservez une table</mj-button>
-        </mj-column>
-      </mj-section>
     </mj-wrapper>
-    <mj-section mj-class="bgM" padding="10px 20px">
+    <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 fw0 cTGW">Le produit de la semaine</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Le produit de la semaine</mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding="0">
       <mj-column width="100%">
-        <mj-image padding="0" width="640px" src="images/produit01.png" alt=""/>
-        <mj-image padding="0" width="640px" src="images/produit02.png" alt=""/>
-        <mj-image padding="0" width="640px" src="images/produit03.png" alt=""/>
+        <mj-image padding="0" width="640px" src="images/produitSemaine.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgM" padding="10px 20px">
+    <mj-section mj-class="bgMarron" padding="10px 20px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 fw0" color="#f9f8f8">Notre étudiant de la semaine</mj-text>
+        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Notre étudiant de la semaine</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgM" padding="0" padding-bottom="15px">
-      <mj-column width="100%">
-        <mj-image padding="0px" width="640px" src="images/Why.png" alt=""/>
+    <mj-section mj-class="bgWhite">
+      <mj-column padding="15px">
+        <mj-image padding="0px" width="610px" src="images/etudiantSemaine.png" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgW" padding="20px">
-      <mj-column padding="10px" width="48%" background-color="#f5f4f1" border-radius="20px" vertical-align="bottom">
-        <mj-text padding="0" align="center" padding-top="10px" mj-class="T16 fw1 cTGM" text-transform="uppercase">Simon jourde</mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTGM">Je m'appelle Simon, actuellement en première année de BTS restauration, option salle, à Ecosup. Je fais cette année en alternance, dans le restaurant de l'hôtel du Why à Lille.</mj-text>
-        <mj-text padding="10px 0" mj-class="T16 fw0 cTGM">Pourquoi la restauration ? Car après avoir fait 2 ans de commerce à l'IAE, j'ai décidé de faire ce qui me permettrait le plus rapidement d'ouvrir mon propre restaurant.</mj-text>
-      </mj-column>
-      <mj-column width="4%">
-        <mj-spacer height="20px"> </mj-spacer>
-      </mj-column>
-      <mj-column width="48%" padding="10px" mj-class="bgM" border-radius="20px">
-        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTW" text-transform="uppercase">Why</mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTW">Le Why est un hôtel 4 étoiles en plein coeur de Lille, juste à côté de la place Rihour.</mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="T16 fw0 cTW">C'est un hôtel Best Western ce qui est gage d'une certaine qualité et d'un certain standing.</mj-text>
-        <mj-text padding="10px 0" mj-class="T16 fw0 cTW">Durant le petit déjeuner, vous retrouvez beaucoup de produits issues de producteurs locaux. Et les plats servis le midi et le soir sont entièrement fait maison et avec beaucoup de produits régionaux.</mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="0 20px" mj-class="bgW">
-      <mj-column width="48%" padding="10px" background-color="#f5f4f1" border-radius="20px">
-        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Expériences</mj-text>
-        <mj-table padding="0" mj-class="T16 fw0 cTGM">
-          <tr>
-            <td style="vertical-align:top;">
-              <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
-            </td>
-            <td> 
-              <p style="margin:0;padding:0;padding-top:10px">Stage section juridique de l'agglomération de Lorient</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align:top;">
-              <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
-            </td>
-            <td>
-              <p style="margin:0;padding:0;padding-top:10px">Stage en agence immobilière à Arras</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align:top;">
-              <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
-            </td>
-            <td>
-              <p style="margin:0;padding:0;padding-top:10px">Serveur au restaurant du golf d'Arras</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align:top;">
-              <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
-            </td>
-            <td>
-              <p style="margin:0;padding:0;padding-top:10px">Ouvrier dans la rénovation intérieur de bâtiments</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="vertical-align:top;">
-              <p style="margin:0;padding-right:15px;padding-top:10px">&#9679;</p>
-            </td>
-            <td>
-              <p style="margin:0;padding:10px 0;">Serveur chez Morel et Fils à Lille</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-      <mj-column width="4%">
-        <mj-spacer height="20px"></mj-spacer>
-      </mj-column>
-      <mj-column width="48%" padding="10px" vertical-align="bottom">
-        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Mes missions</mj-text>
-        <mj-table padding="0" mj-class="T16 fw0 cTGM">
-          <tr>
-            <td style="padding-top:10px;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
-            <td style="padding-top:10px">
-              <p style="margin:0;padding-top:7px;padding-left:7px;">Assurer le petit déjeuner, le service du midi ou du soir</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding-top:10px;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
-            <td style="padding-top:10px;">
-              <p style="margin:0;padding-top:7px;padding-left:7px;">Assurer la continuité du bar</p>
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:10px 0;vertical-align:top;"><img style="vertical-align:top;padding:0;" width="30px" src="images/cocheSmall.png"/></td>
-            <td style="padding:10px 0;">
-              <p style="margin:0;padding-top:7px;padding-left:7px;">Donner aux clients l'envie de revenir</p>
-            </td>
-          </tr>
-        </mj-table>
-      </mj-column>
-    </mj-section>
-    <mj-section padding="20px" mj-class="bgW">
-      <mj-column width="48%" padding="10px">
-        <mj-text padding="0" padding-top="10px" align="center" mj-class="T16 fw1 cTGM" text-transform="uppercase">Loisirs</mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voyager</span></mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Natation</span></mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Écouter de la musique</span></mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Skier</span></mj-text>
-        <mj-text padding="0" padding-top="10px" mj-class="cTGM">&#11044;<span style="font-size:16px;font-size:16px;line-height:20px;font-weight:400">&nbsp;&nbsp;&nbsp;&nbsp;Voir mes amis</span></mj-text>
-      </mj-column>
-      <mj-column width="4%">
-        <mj-spacer height="20px"></mj-spacer>
-      </mj-column>
-      <mj-column width="48%"></mj-column>
-    </mj-section>
-    <mj-section mj-class="bgW" padding="50px 20px">
+    <mj-section mj-class="bgWhite" padding="20px">
       <mj-column>
-        <mj-button>En savoir plus sur Ecosup Hôtellerie</mj-button>
+        <mj-button padding="0" mj-class="T16 cTWhite" background-color="#B59F6B" font-weight="700" border-radius="4px" text-transform="uppercase">En savoir plus sur Ecosup Hôtellerie</mj-button>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgB" padding="40px 20px">
+    <mj-section mj-class="bgMarron" padding="20px 25px">
       <mj-column>
-        <mj-image padding="0" width="160px" src="images/ecosupBlanc.png" alt=""/>
-        <mj-spacer height="10px"></mj-spacer>
-        <mj-text padding="0" align="center" mj-class="T12 fw0 cTW">17 place Charles et Albert Roussel</mj-text>
-        <mj-text padding="0" align="center" mj-class="T12 fw0 cTW">59200 Tourcoing</mj-text>
-        <mj-text padding="0" align="center" mj-class="T14 fw1 cTW">03 20 70 06 06</mj-text>
-        <mj-text padding="0" align="center" mj-class="T14 fw0 cTW">contact@restaurant-alumni.fr</mj-text>
-        <mj-spacer height="10px"></mj-spacer>
-        <mj-social padding="0" vertical-align="top" align="center" icon-size="32px" icon-padding="15px" mode="horizontal">
-          <mj-social-element src="images/facebookNews.png" alt=""></mj-social-element>
-          <mj-social-element src="images/instagramNews.png" alt=""></mj-social-element>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400" css-class="textfooter">17 place Charles et Albert Roussel</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400" css-class="textfooter">59200 Tourcoing</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400" css-class="textfooter">03 20 70 06 06</mj-text>
+        <mj-text padding="0" mj-class="T14 cTWhite" font-weight="400" css-class="textfooter">restaurant@ecosup-hotellerie.fr</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-social padding="0" vertical-align="top" align="right" icon-size="32px" mode="horizontal">
+          <mj-social-element src="images/facebook.png" alt=""></mj-social-element>
+          <mj-social-element src="images/instagram.png" alt=""></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
-    <mj-section padding="10px 30px">
+    <mj-section padding="10px 15px">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T12 fw0" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous êtes inscrit sur Restaurant Alumni</mj-text>
-        <mj-text padding="0" padding-top="20px" align="center" mj-class="T12 fw0"><a style="color:#666666;" href="#">se desinscrire</a></mj-text>
-        <mj-text padding="0" padding-top="10px" align="center" mj-class="T10 fw0" color="#888888">@2025 Restaurant Alumni</mj-text>
+        <mj-text padding="0" align="center" mj-class="T14" color="#888888">Cet e-mail a été envoyé à <a style="color:#1155cc" href="#">philippe.ecosup@gmail.com</a>. Vous avez reçu cet email car vous êtes inscrit sur Ecosup Hôtellerie</mj-text>
+        <mj-text padding="0" padding-top="30px" align="center" mj-class="T14" color="#666666"><a style="color:#666666;" href="#">se desinscrire</a></mj-text>
+        <mj-text padding="0" padding-top="10px" align="center" mj-class="T14" color="#888888">@2025 Ecosup Campus</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
