@@ -59,12 +59,12 @@
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-section mj-class="bgMarron" padding="10px 20px">
+    <mj-section padding="10px 20px" background-color="#7A5231">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Carte de l'Expérientiel</mj-text>
+        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="400" color="#f9f8f8">Carte de l'Expérientiel</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgWhite" padding="10px">
+    <mj-section padding="10px" background-color="#ffffff">
       <mj-column width="45%" padding="10px">
         <mj-image padding="15px 0" width="290px" src="images/plat1.jpg" alt=""/>
       </mj-column>
@@ -102,7 +102,7 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgWhite" padding="10px">
+    <mj-section padding="10px" background-color="#ffffff">
       <mj-column width="45%" padding="10px">
         <mj-image padding="15px 0" width="290px" src="images/plat2.jpg" alt=""/>
       </mj-column>
@@ -140,7 +140,7 @@
         </mj-table>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgWhite" padding="10px">
+    <mj-section padding="10px" background-color="#ffffff">
       <mj-column width="45%" padding="10px">
         <mj-image padding="0" width="290px" src="images/plat3.png" alt=""/>
       </mj-column>
