@@ -302,12 +302,12 @@
         <mj-image padding="0" width="640px" src="images/produitSemaine.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgMarron" padding="10px 20px">
+    <mj-section padding="10px 20px" background-color="#7A5231">
       <mj-column>
-        <mj-text padding="0" align="center" mj-class="T24 cTGreyWhite" font-weight="400">Notre étudiant de la semaine</mj-text>
+        <mj-text padding="0" align="center" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="400" color="#f9f8f8">Notre étudiant de la semaine</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgWhite">
+    <mj-section background-color="#ffffff">
       <mj-column padding="15px">
         <mj-image padding="0px" width="610px" src="images/etudiantSemaine.png" alt=""/>
       </mj-column>
