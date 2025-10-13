@@ -15,10 +15,13 @@
       <mj-all font-family="Arial, Helvetica, sans-serif"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
-    <mj-style>
-      @media (max-width: 480px) {
+    <mj-style inline="inline">
+      @media only screen and (max-width:480px) {
           .textfooter {
               text-align: center !important;
+              text-align: -moz-center !important;
+              text-align: -webkit-center !important;
+              background-color: #000000 !important;
           }
       }
       
@@ -305,7 +308,7 @@
         <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400" color="#ffffff" css-class="textfooter">17 place Charles et Albert Roussel</mj-text>
         <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400" color="#ffffff" css-class="textfooter">59200 Tourcoing</mj-text>
         <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400" color="#ffffff" css-class="textfooter">03 20 70 06 06</mj-text>
-        <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400" color="#ffffff" css-class="textfooter">restaurant@ecosup-hotellerie.fr</mj-text>
+        <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="18px" font-weight="400" color="#ffffff">restaurant@ecosup-hotellerie.fr</mj-text>
       </mj-column>
       <mj-column>
         <mj-social padding="0" vertical-align="top" align="right" icon-size="32px" mode="horizontal">
